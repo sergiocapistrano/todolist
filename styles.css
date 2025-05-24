@@ -1,0 +1,174 @@
+body {
+    background-color: #234e70;
+}
+
+.container {
+    background-color: #fbf8be;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #234e70;
+    margin-bottom: 40px;
+}
+
+#todo-input p {
+    color: #234e70;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#todo-input .form-control {
+    color: #234e70;
+    font-weight: 400;
+    border: 2px solid #234e70;
+}
+
+#todo-input .form-control::placeholder {
+    color: #234e70;
+    font-weight: 400;
+}
+
+#todo-input .btn {
+    background-color: #234e70;
+    border: 2px solid #234e70;
+    color: #c9c5c5;
+}
+
+#todo-input .btn:hover {
+    color: #fbf8be;
+}
+
+#todo-filtros {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+#todo-filtros p {
+    color: #234e70;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+
+#todo-filtros .btn-outline-primary {
+    color:#234e70;
+    border-color: #234e70;
+}
+
+#todo-filtros .btn-check:checked + .btn-outline-primary {
+    background-color: #234e70;
+    color: #fbf8be;
+    border-color: #234e70;
+}
+
+#todo-list  {
+    padding-bottom: 25px;
+}
+
+#todo-list  .mb-1 {
+    color: #234e70;
+}
+
+#todo-list small {
+    color: #234e70;
+}
+
+#todo-list .list-group-item p {
+    text-align: left;
+}
+
+#todo-list .list-group .btn {
+    background-color: #234e70;
+    border: 2px solid #234e70;
+    color: #c9c5c5;
+}
+
+#todo-list .list-group .btn:hover {
+    color: #fbf8be;
+}
+
+.collapse-anim {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.collapse-anim.expandido {
+    max-height: 200px; 
+}
+
+#data-de-criacao {
+    color:#234e70;
+    font-weight: 400;
+}
+
+#notificacao {
+    color:#234e70;
+    font-weight: 400;
+}
+
+.agenda-vazia {
+    color: #234e70 !important;
+    font-weight: 400 !important;
+}
+
+#todo-edit {
+    display: none;
+}
+
+#todo-edit form {
+    text-align: left;
+}
+#todo-edit label,
+#todo-edit .col-form-label {
+    text-align: left;
+}
+
+#todo-edit label {
+    color: #234e70;
+    font-weight: 500;
+}
+
+#todo-edit label::placeholder {
+    color: #234e70;
+    font-weight: 400;
+}
+
+#todo-edit .form-select {
+    color: #234e70;
+    border: 2px solid #234e70;
+    font-weight: 400;
+}
+
+#todo-edit .form-control {
+    color: #234e70;
+    border: 2px solid #234e70;
+    font-weight: 400;
+}
+
+#todo-edit .form-control-plaintext {
+    color: #234e70;
+    font-weight: 400;
+}
+
+#todo-edit .btn {
+    background-color: #234e70;
+    border: 2px solid #234e70;
+    color: #c9c5c5;
+}
+
+#todo-edit .btn:hover {
+    color: #fbf8be;
+}
+
+#todo-edit  {
+    padding-bottom: 25px;
+}
+
